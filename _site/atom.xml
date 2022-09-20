@@ -4,7 +4,7 @@
  <title>Alex Ljamin</title>
  <link href="alljamin.com/atom.xml" rel="self"/>
  <link href="alljamin.com/"/>
- <updated>2020-11-01T22:09:23+10:30</updated>
+ <updated>2022-09-20T21:12:32+09:30</updated>
  <id>alljamin.com</id>
  <author>
    <name></name>
@@ -184,7 +184,7 @@
 &lt;p&gt;This time I decided to give a closer look on my technology stack and came up with the following:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brew.sh&quot;&gt;Homebrew&lt;/a&gt;: separate local version of Ruby, eliminate dangerous &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt; commands&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brew.sh&quot;&gt;Homebrew&lt;/a&gt;: separate local version of Ruby, eliminate dangerous &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo&lt;/code&gt; commands&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://npmjs.com&quot;&gt;NPM&lt;/a&gt; packages: gulp, vendor autoprefix, proper SASS compilation, CSS minification, file rename, browser live reload, image minification&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; (Liquid, Front Matter): static HTML generation, relative urls&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;GIT&lt;/a&gt;: version control&lt;/li&gt;
@@ -292,7 +292,7 @@
 &lt;p&gt;From the begging I have been involved with the business on multiple levels. Starting from general guidance on business and trademark registration to business assets creation. Let me briefly cover all the steps:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;The initial step was to register the &lt;code class=&quot;highlighter-rouge&quot;&gt;com.au&lt;/code&gt; domain name, for which it is required to have an active Australian Business Number (ABN). Once ABN and trademark got registered, I have purchased a domain with &lt;a href=&quot;https://ventraip.com.au/&quot;&gt;VentraIP&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;The initial step was to register the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;com.au&lt;/code&gt; domain name, for which it is required to have an active Australian Business Number (ABN). Once ABN and trademark got registered, I have purchased a domain with &lt;a href=&quot;https://ventraip.com.au/&quot;&gt;VentraIP&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Then I have signed the business up with Google Suite (or G Suite) for professional custom domain email address - @dynastea.com.au.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;And, then, the branding process begun. We went through many different ideas and iterations before finally settling on one. I have started with exploring the possible symbol which would represent one of the services company offers - crockery hire - hence the reference to the cup. Further on based on the stakeholder feedback I have tried to incorporate floral motifs and as well as the countor of a doily. To provide options I have moved away from creating symbols to concentrating more on the words - wordmarks or lettermarks.&lt;/p&gt;
@@ -321,8 +321,8 @@
       &lt;li&gt;Canonical URL&lt;/li&gt;
       &lt;li&gt;Automatic sitemap generation&lt;/li&gt;
       &lt;li&gt;Google Search Console Verification&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt; addition&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; tag content addition for every image on the website&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt; addition&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alt&lt;/code&gt; tag content addition for every image on the website&lt;/li&gt;
       &lt;li&gt;Manual sitemap submission to Google Search Console&lt;/li&gt;
       &lt;li&gt;Request to index and render at Fetch as Google&lt;/li&gt;
       &lt;li&gt;Bing verification&lt;/li&gt;
@@ -363,7 +363,7 @@
 &lt;ul&gt;
   &lt;li&gt;AutoSSL functionality got enabled for every parked domain.&lt;/li&gt;
   &lt;li&gt;Every parked website had SSH key generated with RSA-4096 algorithm.&lt;/li&gt;
-  &lt;li&gt;For temporary URLs and to present work in progress (WIP) to clients I have used Password Protected Directories along with &lt;code class=&quot;highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;User-agent: * Disallow: /&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&amp;gt;&lt;/code&gt; in every protected directory and in page header.&lt;/li&gt;
+  &lt;li&gt;For temporary URLs and to present work in progress (WIP) to clients I have used Password Protected Directories along with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;User-agent: * Disallow: /&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&amp;gt;&lt;/code&gt; in every protected directory and in page header.&lt;/li&gt;
   &lt;li&gt;Custom configured server-side PHP settings allowed larger memory and larger file size upload for raw footage.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -381,10 +381,10 @@
 
 &lt;p&gt;The agency was working with a particular type of content management system (CMS) called &lt;a href=&quot;https://www.couchcms.com/&quot;&gt;CouchCMS&lt;/a&gt;. As I have not had a prior experience with this CMS I had to spend additional time to explore and learn my way through it. A lot of essential project-based CMS configuration was done as my own initiative. For example, the official documentation did not cover the concept of local development with MAMP, but by trial and error I was able to draw out the working configuration. Additionally, I was able to identify and fix some previously unaddressed CMS configuration issues:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Removed explicit global URLs defined as &lt;code class=&quot;highlighter-rouge&quot;&gt;K_SITE_URL&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Removed explicit global URLs defined as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K_SITE_URL&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;Removed database prefixes, as each project had their own separate database and there was no need to store multiple databases in one.&lt;/li&gt;
   &lt;li&gt;Created whitelabeled CMS with the agency branding based on the latest CouchCMS release.&lt;/li&gt;
-  &lt;li&gt;Made all copy-pasted text into &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cms:editable type='richtext' ... /&amp;gt;&lt;/code&gt; to always be plain text - to eliminate text styling issues. Later on, I moved from &lt;code class=&quot;highlighter-rouge&quot;&gt;type='richtext'&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;type='textarea'&lt;/code&gt; with using &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cms:nl2br&amp;gt;&amp;lt;/cms:nl2br&amp;gt;&lt;/code&gt; in the front end.&lt;/li&gt;
+  &lt;li&gt;Made all copy-pasted text into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;cms:editable type=&apos;richtext&apos; ... /&amp;gt;&lt;/code&gt; to always be plain text - to eliminate text styling issues. Later on, I moved from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type=&apos;richtext&apos;&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type=&apos;textarea&apos;&lt;/code&gt; with using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;cms:nl2br&amp;gt;&amp;lt;/cms:nl2br&amp;gt;&lt;/code&gt; in the front end.&lt;/li&gt;
   &lt;li&gt;Changed file upload and memory limits to be higher in order to support raw footage upload.&lt;/li&gt;
 &lt;/ul&gt;
 

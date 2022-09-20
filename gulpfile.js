@@ -9,7 +9,7 @@ var gulp = require("gulp");
 var imagemin = require("gulp-imagemin");
 var rename = require("gulp-rename");
 var run = require("gulp-run");
-var sass = require("gulp-sass");
+var sass = require("gulp-sass")(require('sass'));
 var uglify = require("gulp-uglify");
 var cache = require("gulp-cache");
 
@@ -108,7 +108,7 @@ gulp.task("critical", function(done) {
         width: 1200
       }
     ],
-    dest: "index.html",
+    target: "index.html",
     minify: true,
     ignore: ["@font-face", /url\(/]
   });

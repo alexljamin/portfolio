@@ -1,6 +1,6 @@
 # Portfolio
 
-The main aim of this project was to find a best way to capture my work and present it to the public. I ended up creating a custom theme for [Jekyll](https://jekyllrb.com/). Later on I introduced [Gulp.js](https://gulpjs.com/), because certain funcationality, important to me, is still missing in Jekyll for ex. live browser refresh, vendor autoprefix, javascript minification, image minification, better handling of sass and more advanced watch tasks.
+The main aim of this project was to find a best way to capture my work and present it to the internet. I have created a custom theme for [Jekyll](https://jekyllrb.com/). Later on I introduced [Gulp.js](https://gulpjs.com/), because certain funcationality, important to me, is still missing in Jekyll for ex. live browser refresh, vendor autoprefix, javascript minification, image optimisation, better handling of sass and more advanced watch tasks.
 
 ## Contents
 
@@ -53,10 +53,10 @@ It is recommended to follow the order of instructions to prevent possible errors
 #### Jekyll
 
 1. Install rbenv `brew install rbenv`
-2. Make rbenv run everytime terminal is open `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+2. Make rbenv run everytime terminal is open `echo 'eval "$(rbenv init -)"' >> ~/.zshrc`
 3. Restart terminal for the previous shell command to work.
-3. Install Ruby with rbenv `rbenv install 2.6.5`
-4. Switch from system Ruby to rbenv `rbenv global 2.6.5`
+3. Install Ruby with rbenv `rbenv install 3.1.2`
+4. Switch from system Ruby to rbenv `rbenv global 3.1.2`
 5. Install Jekyll: `gem install jekyll`
 6. Update all system gems: `gem update --system`
 
