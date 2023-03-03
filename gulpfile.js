@@ -96,8 +96,8 @@ gulp.task("critical", function(done) {
   critical.generate({
     inline: true,
     base: "_site/",
-    src: "index.html",
     css: ["assets/styles/main.min.css"],
+    src: "index.html",
     dimensions: [
       {
         height: 200,
@@ -108,8 +108,6 @@ gulp.task("critical", function(done) {
         width: 1200
       }
     ],
-    target: "index.html",
-    minify: true,
     ignore: ["@font-face", /url\(/]
   });
   done();

@@ -117,8 +117,7 @@ Calling `build:jekyll:dev` will rewrite the `_config.yml` baseurl and keep relat
 ## Author
 
 Aleksandr Ljamin
-- https://github.com/alljamin
-- https://twitter.com/alljamin
+- https://github.com/alexljamin
 
 ## Ownership
 
